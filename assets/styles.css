@@ -1,0 +1,51 @@
+
+/* Header and Navigation */
+
+header{
+
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-content: center;
+
+    
+}
+
+header nav ul li{
+
+    padding: 2px;
+    flex-flow: row;
+    
+}
+
+/* Banner image and overlayed text */
+
+.banner{
+   
+   position: relative; 
+
+}
+
+.banner img{
+
+    display: block;
+    margin: auto;
+    width: 100%;
+    
+}
+
+.banner h2{
+    position: absolute;
+    left: 0%;
+    bottom: 5%;
+    color: aqua;
+    font-size: 2em;
+}
+
+
+.banner1{
+    
+    background-color: darkblue;
+    color: aqua;
+    
+}
