@@ -211,10 +211,12 @@ article p::first-line {
 /* Contact Section */
 
 section.comGrid {
-  background: #F4F4F4;
+  background: black;
   text-align: center;
   padding: 60px 20px;
-  color: #4B4B4B;
+  color: white;
+  border-top:2px solid white ;
+  text-shadow: rgb(236, 87, 17) 1px 2px 3px;
 }
 
 section.comGrid h2 {
@@ -225,13 +227,39 @@ section.comGrid h2 {
 
 footer {
   position: relative;
-  background: var(--samusred);
   color: white;
+  text-justify: center;
   text-align: center;
 }
 
-footer span {
+footer span{
   font-size: 1.6em;
+  
+}
+
+
+footer a{
+  display: inline-block;
+  color: var(--samusred);
+  font-size: 1.3em;
+  font-weight:bold;
+  text-shadow:black 0px 0px 0px;
+  padding: 0.7em;
+  margin: 0.5em;
+  text-justify: center;
+  text-align: center;
+ 
+
+}
+
+footer a:hover{
+  border: 4px solid white;
+  border-radius: 25px;
+  color: #FC0;
+  box-shadow: 0px 4px 16px 6px rgba(196, 35, 35, 0.753);
+  font-weight:bolder;
+  font-size: 1.4em;
+  
 }
 
 /* Media Queries*/
