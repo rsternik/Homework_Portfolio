@@ -1,0 +1,155 @@
+/* Oxanium Font Import */
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Oxanium:wght@400;700&display=swap");
+
+/* Body */
+
+body {
+  
+  /* Variables */
+
+  --ox: "Oxanium";
+  --shdw: 5px 3px 5px rgb(44, 43, 43);
+  --samusred: #b13e2c;
+  --samusblue: #8aeaf8;
+  --samgrad: #0b0c10 linear-gradient(90deg, #0b0c10 25%, #1F2833 50%, ##0b0c10 100%);
+  
+  /* Body Defaults */
+  
+  font-family: var(--ox);
+  background-color: #1f2833;
+  color: #c5c6c7;
+  
+}
+
+header{
+    margin-left:15.1%;
+    margin-right:15.1%;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    border-bottom: 2px solid;
+    
+}
+
+ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr
+}
+  nav li {
+    padding: 0.9em;
+    max-width: 100%;
+    font-size: 1.1em;
+    color: #c5c6c7;
+  }
+  nav li a {
+    text-decoration: none;
+    color: #c5c6c7;
+  }
+  
+  nav li a:hover {
+    color: #66fcf1;    
+    text-decoration: underline;
+    
+  }
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    grid-template-rows: .2fr .1fr .1fr;
+   
+    gap: 20px;
+    margin-left:15.1%;
+    margin-right:15.1%;
+}
+
+h2{
+    
+    padding: .4em;
+}
+
+div{
+    
+    border-left: 2px solid;
+    padding: .4em;
+}
+
+.banner{
+    display: block;
+    text-align: center;
+    
+  
+}
+
+.banner img{
+   border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px; 
+}
+.myWork img{
+       border-bottom: 3px solid;
+       max-width: 75%;
+       max-height: 70%;
+       border-radius: 6px;
+       box-shadow: 4px blanchedalmond;
+       margin: 1em;
+       
+}
+
+.myWork img:hover{
+    transform: scale(1.25,1.25);
+  }
+
+  .myWork img:active{
+    transform: scale(0.9,0.9);
+  }
+
+.myWork{
+    display: grid;
+grid-template-rows: .1fr .1fr .1fr .05fr;
+grid-template-columns: 1fr 1fr;
+justify-items: center;
+align-items: left;
+
+
+
+}
+
+.contactMe{
+justify-items: center;
+align-items: center;
+text-align: center;
+}
+
+.contactMe a{
+    display: inline-block;
+    color: var(--samusred);
+    font-size: 1.6em;
+    font-weight:bold;
+    text-shadow:black 0px 0px 0px;
+    padding: 0.5%;
+    text-justify: center;
+    text-align: center;
+   
+  
+  }
+  
+  .contactMe a:hover{
+    color: #FC0;
+    font-weight:bolder;
+    font-size: 1.8em;
+    
+  }
+
+  .aboutMe{
+text-align: left;
+   
+  }
+
+  .card {
+    border-left:none;
+    max-height: 90%;
+    max-width: 80%;
+
+  }
+
+  h3{
+      border-bottom: 2px solid white;
+  }
